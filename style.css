@@ -1,0 +1,131 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #352f5b;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+.task{
+    border:2px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    border-bottom: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* GlassMorphism */
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.icon{
+    font-size: 22px;
+}
+p{
+    font-size: 20px;
+}
+.icon:hover{
+    font-size: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+}.icon-angry, .icon-trash{
+    margin:1rem ;
+}
+.icon-star-o, .icon-angry, .icon-trash {
+    opacity: 0.4;
+}
+.icon-star-o:hover{
+    color:rgb(214, 142, 9);
+    opacity: 1;
+}
+.icon-trash:hover{
+    color:rgb(255, 242, 217);
+    font-size: 29px;
+    opacity: 1;
+}
+.icon-angry{
+    color:rgb(255, 172, 18);
+}
+.icon-angry:hover{
+    color:rgb(255, 172, 18);
+    font-size: 29px;
+    opacity: 1;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top:100px ;
+    margin-bottom: 40px;
+}
+
+form{
+    text-align: center;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vw ;
+    font-size: 21px;
+}
+button{
+    padding: 15px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: orange;
+    opacity: 1;
+}
+.activeButton{
+    color: orange;
+    opacity: 1;
+
+
+}
+button:hover{
+    padding: 16px;
+    transition: 0.2s;
+    color: rgb(160, 250, 205);
+    cursor:pointer;
+}
+.dn{
+    display: none;
+}
+.actionE{
+    text-decoration: line-through;
+}
+.icon-heart{
+    font-size: 20px;
+    color: red;
+}
+.icon-heart:hover{
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 1;
+
+
+}
+.dispaly{
+    display: none;
+}
+.dispalyy {
+    display: none;
+}
